@@ -1,0 +1,13 @@
+Package: SarmanovComp
+Type: Package
+Title: Sarmanov Compound Models (NN + GLM) with Multi-Covariates
+Version: 0.0.1
+Authors@R: person(given = "Tianqi_Gu", family = "User", role = c("aut","cre"), email = "tq24gu@gmail.com")
+Description: Neural-network and GLM based IFM and alternating IFM estimators for compound frequency–severity models with Sarmanov dependence. Supports Poisson, zero-inflated Poisson, and Negative Binomial frequencies with Gamma or Lognormal severities, using exponential or standardized kernels. Accepts multiple covariates (numerics and factors handled via model.matrix). Includes utilities for scaling and simple multilayer perceptrons.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 4.1.0)
+Imports: stats, MASS, pscl, keras, tensorflow
+Suggests: e1071, testthat (>= 3.0.0)
+Config/testthat/edition: 3
