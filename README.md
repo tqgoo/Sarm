@@ -1,2 +1,3 @@
 # Sarm
-The codes used in dissertation "Flexible dependence–aware frequency–severity modelling via the Sarmanov framework"
+This site provides codes used in the dissertation "Flexible dependence–aware frequency–severity modelling via the Sarmanov framework", and a compiled package implementing Neural-network and GLM based IFM and alternating IFM estimators for compound frequency–severity models with Sarmanov dependence. Supports Poisson, zero-inflated Poisson, and Negative Binomial frequencies with Gamma or Lognormal severities, using exponential or standardized kernels. Accepts multiple covariates (numerics and factors handled via model.matrix). Includes utilities for scaling and simple multilayer perceptrons.
+
